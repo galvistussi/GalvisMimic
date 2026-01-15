@@ -9,14 +9,14 @@ export class GameEngine {
             {
                 id: "1",
                 name: team1Name || "Equipo 1",
-                players: team1Players.map((name, i) => ({ id: `1-${i}`, name })),
+                players: team1Players,
                 score: 0,
                 currentPlayerIndex: 0,
             },
             {
                 id: "2",
                 name: team2Name || "Equipo 2",
-                players: team2Players.map((name, i) => ({ id: `2-${i}`, name })),
+                players: team2Players,
                 score: 0,
                 currentPlayerIndex: 0,
             },

@@ -41,7 +41,7 @@ export const DiceScreen: React.FC<DiceScreenProps> = ({ currentTeam, onContinue,
                     {currentTeam.name}
                 </h3>
                 <p style={{ fontSize: '1.25rem', color: THEME.colors.primary, fontWeight: 'bold' }}>
-                    {currentPlayer.name}
+                    {currentPlayer}
                 </p>
             </motion.div>
 

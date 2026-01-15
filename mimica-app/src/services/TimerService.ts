@@ -1,5 +1,5 @@
 export class TimerService {
-    private intervalId: NodeJS.Timeout | null = null;
+    private intervalId: any = null;
     private duration: number;
     private onTick?: (timeLeft: number) => void;
     private onFinish?: () => void;
