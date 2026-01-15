@@ -39,7 +39,6 @@ export const ActionScreen: React.FC<ActionScreenProps> = ({ onFinish }) => {
             <TimerDisplay
                 seconds={timeLeft}
                 initialSeconds={GAME_CONFIG.TURN_DURATION_SEC}
-                onTimeUp={() => onFinish(false)}
                 isActive={true}
             />
 

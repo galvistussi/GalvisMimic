@@ -1,19 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { THEME } from '../../config/theme';
-import { formatTime } from '../../utils/formatters';
 
 interface TimerDisplayProps {
     seconds: number;
     initialSeconds: number;
-    onTimeUp: () => void;
     isActive: boolean;
 }
 
 export const TimerDisplay: React.FC<TimerDisplayProps> = ({
     seconds,
     initialSeconds,
-    onTimeUp,
     isActive
 }) => {
     const controls = useAnimation();
