@@ -1,4 +1,4 @@
-import { Category } from "./categories";
+import type { Category } from "./categories";
 
 export const WORD_BANK: Record<Category, string[]> = {
     Profesiones: [

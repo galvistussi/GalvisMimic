@@ -1,4 +1,4 @@
-import { CATEGORIES, Category } from "../data/categories";
+import { CATEGORIES, type Category } from "../data/categories";
 import { WORD_BANK } from "../data/wordBank";
 
 export class Randomizer {

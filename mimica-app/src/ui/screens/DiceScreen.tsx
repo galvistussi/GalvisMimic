@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { THEME } from '../../config/theme';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { Dice6 } from 'lucide-react';
-import { Team } from '../../models/Team';
+import type { Team } from '../../models/Team';
 
 interface DiceScreenProps {
     currentTeam: Team;

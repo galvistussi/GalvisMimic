@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { THEME } from '../../config/theme';
 import { PrimaryButton } from '../components/PrimaryButton';
-import { Team } from '../../models/Team';
+import type { Team } from '../../models/Team';
 import confetti from 'canvas-confetti';
 import { Trophy, RefreshCw } from 'lucide-react';
 
@@ -50,7 +50,7 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({ winningTeam, onRes
                     fontSize: '2.5rem',
                     color: THEME.colors.accent,
                     background: 'none',
-                    webkitTextFillColor: 'initial'
+                    WebkitTextFillColor: 'initial'
                 }}>
                     {winningTeam.name}
                 </h2>

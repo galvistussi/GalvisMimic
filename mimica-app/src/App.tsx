@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { GameState } from './models/GameState';
+import type { GameState } from './models/GameState';
 import { GameEngine } from './services/GameEngine';
 import { SetupScreen } from './ui/screens/SetupScreen';
 import { DiceScreen } from './ui/screens/DiceScreen';

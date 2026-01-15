@@ -1,12 +1,9 @@
-export interface Player {
-    id: string;
-    name: string;
-}
+// src/models/Team.ts
 
 export interface Team {
-    id: string;
+    id: number;
     name: string;
-    players: Player[];
+    players: string[];
     score: number;
     currentPlayerIndex: number;
 }

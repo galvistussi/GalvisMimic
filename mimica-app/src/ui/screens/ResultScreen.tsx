@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { THEME } from '../../config/theme';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { GAME_CONFIG } from '../../config/constants';
-import { Team } from '../../models/Team';
-import { Trophy, Frown, Users } from 'lucide-react';
+import type { Team } from '../../models/Team';
+import { Trophy, Frown } from 'lucide-react';
 
 interface ResultScreenProps {
     success: boolean;

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { THEME } from '../../config/theme';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { WordCard } from '../components/WordCard';
-import { CATEGORIES, Category } from '../../data/categories';
+import { CATEGORIES, type Category } from '../../data/categories';
 
 interface WordRevealScreenProps {
     roundWords: Record<Category, string>;

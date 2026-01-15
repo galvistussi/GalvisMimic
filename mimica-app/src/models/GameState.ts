@@ -1,15 +1,13 @@
-import { Team } from "./Team";
-import { Category } from "../data/categories";
-
-export type GameStatus = "setup" | "dice" | "reveal" | "action" | "result" | "victory";
+import type { Team } from "./Team";
+import type { Category } from "../data/categories";
 
 export interface GameState {
     teams: Team[];
     currentTeamIndex: number;
-    status: GameStatus;
+    status: 'setup' | 'dice' | 'reveal' | 'action' | 'result' | 'victory';
     isGameOver: boolean;
-    winningTeamId?: string;
     roundWords: Record<Category, string>;
     targetCategory?: Category;
     turnSuccess?: boolean;
+    winningTeamId?: string;
 }

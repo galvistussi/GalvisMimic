@@ -1,5 +1,5 @@
-import { GameState, GameStatus } from "../models/GameState";
-import { Team } from "../models/Team";
+import type { GameState } from "../models/GameState";
+import type { Team } from "../models/Team";
 import { Randomizer } from "./Randomizer";
 import { GAME_CONFIG } from "../config/constants";
 
