@@ -2,33 +2,53 @@ import type { Category } from "./categories";
 
 export const WORD_BANK: Record<Category, string[]> = {
     Profesiones: [
-        "Médico", "Bombero", "Astronáuta", "Arquitecto", "Cocinero",
-        "Detective", "Bailarín", "Programador", "Agricultor", "Peluquero",
-        "Carpintero", "Abogado", "Piloto", "Plomero", "Escritor",
-        "Fotógrafo", "Actor", "Mecánico", "Vendedor", "Maestro"
+        "Taxidermista", "Sommelier", "Funambulista", "Deshollinador", "Subastador",
+        "Topógrafo", "Titiritero", "Embalsamador", "Soplador de vidrio", "Quiropráctico",
+        "Controlador Aéreo", "Cerrajero", "Apicultor", "Buzo de combate", "Antropólogo",
+        "Perito Forense", "Doble de riesgo", "Encantador de serpientes", "Traductor Simultáneo", "Relojero",
+        "Leñador", "DJ (Disc Jockey)", "Tatuador", "Árbitro de Fútbol", "Chef de Teppanyaki",
+        "Minero", "Sastre / Modista", "Ventrílocuo", "Carnicero", "Encargado de Mudanzas",
+        "Peluquero Canino", "Director de Orquesta", "Torero", "Astronauta", "Guardaespaldas",
+        "Detective Privado", "Salvavidas", "Mimo", "Cazafantasmas", "Pastor de Ovejas"
     ],
     Lugares: [
-        "Playa", "Bosque", "Gimnasio", "Biblioteca", "Aeropuerto",
-        "Casino", "Parque de Diversiones", "Hospital", "Cine", "Restaurante",
-        "Iglesia", "Estadio", "Mercado", "Cueva", "Isla",
-        "Desierto", "Montaña", "Zoológico", "Oficina", "Escuela"
+        "Sala de Interrogatorios", "Trinchera", "Estación Espacial", "Manicomio", "Plataforma Petrolífera",
+        "Confesionario", "Arenas Movedizas", "Morgue", "Sauna", "Torre de Control",
+        "Invernadero", "Catacumbas", "Cabina de Peaje", "Alfombra Roja", "Desguace",
+        "Laboratorio Clandestino", "Probador de Ropa", "Fosa Común", "Acantilado", "Pasarela de Moda",
+        "Iglú", "Discoteca", "Ascensor lleno", "Cine 4D", "Gimnasio",
+        "Parque de Atracciones", "Museo de Cera", "Carpa de Circo", "Isla Desierta", "Túnel de Lavado",
+        "Barco Pirata", "Pista de Hielo", "Sala de Partos", "Zoológico", "Campo Minado",
+        "Nave Espacial", "Cueva", "Pantano", "Alcantarilla", "Volcán en erupción"
     ],
     Acciones: [
-        "Saltar la cuerda", "Pintar un cuadro", "Cambiar un pañal", "Pasear al perro", "Hacer surf",
-        "Tocar el violín", "Subir una escalera", "Pescar", "Bucear", "Hacer yoga",
-        "Planchar la ropa", "Conducir", "Comer espaguetis", "Dormir", "Llorar",
-        "Reír", "Bailar salsa", "Cantar opera", "Correr una maratón", "Cocinar"
+        "Procrastinar", "Chantajear", "Hipnotizar", "Cauterizar", "Contrabandear",
+        "Exorcizar", "Plagiar", "Alucinar", "Sobornar", "Regatear",
+        "Improvisar", "Falsificar", "Hibernar", "Conspirar", "Tartamudear",
+        "Eructar", "Divorciarse", "Peregrinar", "Decapitar", "Cotillear",
+        "Ordeñar", "Surfear", "Desmayarse", "Hacerse el muerto", "Caminar sobre legos",
+        "Torear", "Cantar Ópera", "Boxear", "Hacer Autostop", "Desactivar una bomba",
+        "Caminar contra el viento", "Cambiar un pañal", "Ahogarse", "Pisar chicle", "Comer picante",
+        "Espantar moscas", "Romper aguas", "Ser abducido", "Electrocutarse", "Sonámbulo"
     ],
     Objetos: [
-        "Teléfono", "Paraguas", "Cepillo de dientes", "Guitarra", "Bicicleta",
-        "Reloj", "Llave", "Gafas", "Silla", "Mesa",
-        "Cámara", "Libro", "Botella", "Espejo", "Martillo",
-        "Globo", "Linterna", "Pala", "Tijeras", "Diccionario"
+        "Caleidoscopio", "Polígrafo", "Gaita", "Chaleco de fuerza", "Periscopio",
+        "Matasuegras", "Marcapasos", "Guillotina", "Catapulta", "Alcoholímetro",
+        "Bumerán", "Sarcófago", "Diapasón", "Detector de metales", "Trípode",
+        "Extintor", "Grilletes", "Gramófono", "Cortauñas", "Pararrayos",
+        "Motosierra", "Hula-hula", "Tostadora", "Caja de música", "Telescopio",
+        "Licuadora", "Silla eléctrica", "Palo de Selfie", "Muñeco vudú", "Bola de cristal",
+        "Grapadora", "Aspiradora", "Látigo", "Inodoro", "Bomba de tiempo",
+        "Espada Excalibur", "Dron", "Secador de pelo", "Walkie-Talkie", "Máquina de escribir"
     ],
     "Seres Vivos": [
-        "Elefante", "Mariposa", "Pingüino", "Árbol", "Dinosaurio",
-        "Jirafa", "Pulpo", "Gato", "Perro", "Abeja",
-        "León", "Mono", "Cebra", "Baleen", "Serpiente",
-        "Vaca", "Caballo", "Flor", "Seta", "Pájaro"
+        "Ornitorrinco", "Camaleón", "Perezoso", "Mantis Religiosa", "Suricato",
+        "Planta Carnívora", "Pez Globo", "Luciérnaga", "Narval", "Armadillo",
+        "Hiena", "Avestruz", "Caballito de mar", "Bacteria", "Oruga",
+        "Lémur", "Erizo", "Medusa", "Correcaminos", "Mandril",
+        "Zombi", "Tiranosaurio Rex", "Pingüino", "Vampiro", "Canguro",
+        "Hombre Lobo", "Sirena", "Momia", "Gorila", "Mosquito",
+        "Caracol", "Gallina", "Frankenstein", "Dragón", "Cangrejo",
+        "Gusano", "Pavo Real", "Alienígena", "Robot", "Fantasma"
     ]
 };
